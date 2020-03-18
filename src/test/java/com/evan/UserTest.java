@@ -10,7 +10,7 @@ import org.junit.Test;
 public class UserTest {
 
     @Test
-    public void setId() {
+    public void test01() {
         SqlSession sqlSession = null;
         try {
             sqlSession = DBUtils.openSqlSession();
