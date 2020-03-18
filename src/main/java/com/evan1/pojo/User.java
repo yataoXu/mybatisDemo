@@ -1,4 +1,4 @@
-package com.evan.bean;
+package com.evan1.pojo;
 
 import lombok.Data;
 
