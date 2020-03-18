@@ -21,9 +21,9 @@ public class DBUtils {
                 if (sqlSessionFactory == null) {
                     PooledDataSource dataSource = new PooledDataSource();
                     dataSource.setDriver("com.mysql.jdbc.Driver");
-                    dataSource.setUrl("jdbc:mysql://localhost:3306/mybatis");
+                    dataSource.setUrl("jdbc:mysql://10.2.192.31:3306/mybatis");
                     dataSource.setUsername("root");
-                    dataSource.setPassword("root");
+                    dataSource.setPassword("anyrobot123");
                     TransactionFactory transactionFactory = new JdbcTransactionFactory();
                     Environment environment = new Environment("development", transactionFactory, dataSource);
                     Configuration configuration = new Configuration(environment);
